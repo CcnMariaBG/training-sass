@@ -1,3 +1,10 @@
-body {
-    background-color: darkgreen;
+@import "./reset";
+@import "./variables";
+@import "./functions";
+@import "./maps";
+@import "./mixins";
+
+// Generics
+:root {
+  font-size: 0.785rem;
 }
